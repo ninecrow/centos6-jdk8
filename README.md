@@ -6,7 +6,7 @@ centos6-jdk8
 		JDK:jdk-8u171-linux-x64
 &nbsp;
 ### jdk默认参数
-		build 时候通过修改以下参数，可以修改生成image的jdk版本
+		build 时候修改以下参数，可以修改生成image的jdk版本
 		ARG JDK_VER=8 
 		ARG JDK_UPD=171
 		ARG JDK_BUILD=11
